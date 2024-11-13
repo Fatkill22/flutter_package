@@ -1,0 +1,45 @@
+name: md_ea5_final
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^6.1.0
+
+  animations: ^2.0.11
+
+  cupertino_icons: ^1.0.2
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/BennettBurst.wav
+      - assets/FischlBurst.wav
+      - assets/Bennett.png
+      - assets/Fischl.png
+
